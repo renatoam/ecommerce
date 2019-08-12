@@ -1,3 +1,8 @@
+Projeto de um simples exemplo de e-commerce, com listagem de produtos e interação com o carrinho de compras. 
+Será feito com React e Bootstrap, com algumas poucas coisas usando reactstrap e css puro. 
+
+Abaixo, o Readme padrão do CRA (Create React App): 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
