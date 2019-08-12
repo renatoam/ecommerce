@@ -4,13 +4,14 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <section className="App container" style={{border: "1px solid red"}}>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>MANGEKYOU SHARINGAN!</h1>
         <small>COMING SOON...</small>
+        <button className="btn btn-primary">botão</button>
       </header>
-    </div>
+    </section>
   );
 }
 
