@@ -2,12 +2,56 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <title>E-commerce | Vanilla JS</title>
   </head>
   <body>
-    <div id="app"></div>
+    <header class="is-dark">
+      <nav class="navbar container" role="navigation" aria-label="main navigation">
+        <ul class="navbar-menu">
+          <li class="navbar-item has-dropdown is-hoverable">
+            <a href="#" class="navbar-link">
+              Home
+            </a>
+
+            <div class="navbar-dropdown">
+              <a class="navbar-item">
+                Product List Page
+              </a>
+              <a class="navbar-item">
+                Product Details Page
+              </a>
+              <a class="navbar-item">
+                Cart
+              </a>
+              <a class="navbar-item">
+                Checkout
+              </a>
+              <hr class="navbar-divider">
+              <a class="navbar-item">
+                My Account
+              </a>
+            </div>
+          </li>
+        </ul>
+        <section class="navbar-brand">
+          Logo
+        </section>
+        <section class="navbar-end">
+          <p>Log in</p>
+          <p>Cart</p>
+        </section>
+      </nav>
+    </header>
+    <section class="hero is-link is-fullheight-with-navbar">
+      <div class="hero-body">
+        <p class="title">
+          Fullheight hero with navbar
+        </p>
+      </div>
+    </section>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
